@@ -11,6 +11,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment:fixed ;
+    overflow-x: hidden;
   }
 svg{
   margin-bottom: -10px;
@@ -428,14 +429,14 @@ height: 500px;
     max-width: 600px; 
     margin-top: 180px;
     font-size: 30px;
-    margin-left: 150px;
+    margin-left: 190px;
   }
   
   .main_heading{  
     margin-top: -45px;
     font-size: 50px;
-    width: 500px;
-    margin-left: 150px;
+    width: 650px;
+    margin-left: 15px;
   }
   .hero{
   max-height: 450px;
@@ -456,26 +457,38 @@ height: 500px;
     min-height: 500px;
     z-index: -100;
     margin-top: 90px;
-    margin-left: 80px;
+    margin-left: -30px;
   }
   .hero_text{
     max-width: 400px;
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-left: 230px;
+    margin-left: 130px;
   }
   #testimonial{
-    margin-top: 250px;
+    margin-top: 400px;
+    width: 100%;
+  }
+  .testimonial-heading{
+    margin-left: 300px;
   }
   .testimonial-box-container{
-    width: 100%;
+    width: 170%;
+    margin-left: 300px;
   }
   .testimonial-box{
     width: 100%;
   }
   .pro-container{
     margin-left: 90px;
+    width: 120%;
+  }
+  .logo-heading{
+    width: 180%;
+  }
+  .infi-logo{
+    width: 175%;
   }
   
 }
@@ -534,6 +547,9 @@ height: 500px;
   .box-top{
     flex-wrap: wrap;
     margin-bottom: 10px;
+  }
+  footer{
+    width : 100%;
   }
 }
 .pro-container{
@@ -648,7 +664,7 @@ body {
 	}
 }
 footer {
-
+  width: 100%;
   bottom: 0;
 }
 
@@ -792,7 +808,7 @@ footer {
 }
 @media (max-width: 880px) {
   .footer-distributed{
-    width: 107%;
+    width: 184.5%;
   }
   
   .footer-distributed .footer-left, .footer-distributed .footer-center, .footer-distributed .footer-right {
